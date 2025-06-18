@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vehicle Detection & Speed Tracking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Vehicle Detection & Speed Tracker</h1>
+  </header>
+
+  <main>
+    <section class="video-section">
+    <h2>Processed Video Output</h2>
+    <iframe width="600" height="350" id="video" 
+      src="https://www.youtube.com/embed/Ka8zhk0K54Q?si=i_06OnCSTl3deGSt" 
+      title="YouTube video player" frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+    </section>
+
+    <section class="data-section">
+      <h2>Speed Tracking Data</h2>
+      <iframe src="speedtrack.txt" title="Speed Data" class="data-frame"></iframe>
+    </section>
+
+    <section class="speeding-section">
+      <h2>Over Speeding Vehicle IDs</h2>
+      <iframe src="over_speeding_cars_ID.txt" title="Speeding IDs" class="data-frame"></iframe>
+    </section>
+    <br>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 | Developed by Dudekula Rajesh</p>
+  </footer>
+
+</body>
+</html>
