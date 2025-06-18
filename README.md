@@ -15,7 +15,8 @@ Pandas, NumPy
 Ultralytics YOLOv8
 Custom tracking module (tracker.py)
 📂 File Structure
-. ├── main.py # Main script for detection and speed calculation
+
+├── main.py # Main script for detection and speed calculation
 
 ├── tracker.py # Object tracking logic
 
@@ -27,7 +28,7 @@ Custom tracking module (tracker.py)
 
 🚀 How to Run the Project
 1. Clone the Repository
-git clone https://github.com/Dudekularajesh/vehicle-speed-tracking-yolo.git
+git clone https://github.com/Dudekularajesh/Autonomous-Vehicle-navigation-system-using-deep-learning-and-computer-vision-
 
 cd vehicle-speed-tracking-yolo
 
