@@ -1,20 +1,39 @@
-Speed-Detection---Computer-Vision
+**Autonomous-Vehicle-navigation-system-using-deep-learning-and-computer-vision-**
+
 🚗 Real-Time Vehicle Detection and Speed Estimation using YOLOv8
+
 This project uses computer vision and deep learning to detect and track vehicles in real-time from video footage. It calculates the speed of each detected vehicle and flags those exceeding a speed threshold.
 
-📸 Features
-Vehicle detection using YOLOv8 (yolov8s.pt)
-Real-time speed calculation using two virtual lines
-Detection of overspeeding vehicles
-Logging overspeeding vehicle IDs to a file
-Direction-based vehicle counting (up and down)
-🛠 Technologies Used
-Python 3.x
-OpenCV
-Pandas, NumPy
-Ultralytics YOLOv8
-Custom tracking module (tracker.py)
-📂 File Structure
+
+**📸 Features**
+
+1)Vehicle detection using YOLOv8 (yolov8s.pt)
+
+2)Real-time speed calculation 
+
+3)Detection of overspeeding vehicles
+
+4)Logging overspeeding vehicle IDs to a file
+
+
+**🛠 Technologies Used**
+
+1)Python 3.x
+
+2)OpenCV
+
+4)Pandas
+
+5)NumPy
+
+6)Ultralytics 
+
+7)YOLOv8
+
+8)Custom tracking module (tracker.py)
+
+
+**📂 File Structure**
 
 ├── main.py # Main script for detection and speed calculation
 
@@ -26,34 +45,42 @@ Custom tracking module (tracker.py)
 
 ├── stock-footage-traffic-on-the-indian-roads.WEBM # Input video
 
-🚀 How to Run the Project
+
+**🚀 How to Run the Project**
+
 1. Clone the Repository
-git clone https://github.com/Dudekularajesh/Autonomous-Vehicle-navigation-system-using-deep-learning-and-computer-vision-
+   
+     git clone  https://github.com/Dudekularajesh/Autonomous-Vehicle-navigation-system-using-deep-learning-and-computer-vision-
 
-cd vehicle-speed-tracking-yolo
+     cd Autonomous-Vehicle-navigation-system-using-deep-learning-and-computer-vision-
 
-Install Dependencies
-pip install opencv-python pandas numpy ultralytics 3. Place Required Files Ensure coco.txt (COCO class names) is present.
+2. Install Dependencies
 
-Download and place the YOLOv8 weights file yolov8s.pt in the working directory.
+     pip install opencv-python, pandas, numpy, ultralytics 
 
-Provide a traffic video named stock-footage-traffic-on-the-indian-roads.WEBM.
+3. Place Required Files Ensure coco.txt (COCO class names) is present.
 
-Run the Application
-python main.py 5. Output The app will open a window showing real-time detection.
+4. Download and place the YOLOv8 weights file yolov8s.pt in the working directory.
 
-It logs overspeeding vehicle IDs in over_speeding_cars_ID.txt.
+5. Provide a traffic video named rajesh.mp4
 
-📈 Parameters Speed threshold: 40 km/h (hardcoded)
+6. Run the Application
 
-Frame skip: processes every 3rd frame for performance
+     python main.py 
 
-Distance between virtual lines: 10 meters (simulated)
+7.  Output The app will open a window showing real-time detection.
 
-📌 Notes Make sure your video shows traffic with vehicles moving across two horizontal lines.
+     It logs overspeeding vehicle IDs in over_speeding_cars_ID.txt.
 
-You can adjust cy1 and cy2 in main.py to change the line positions.
+     📈 Parameters Speed threshold: 40 km/h (hardcoded)
 
-🧑‍💻 Author Dudekula Rajesh Final Year Project – SVR Engineering College
+     Frame skip: processes every 3rd frame for performance
 
-📄 License This project is for educational and non-commercial use only.
+   
+
+🧑‍💻 Author
+                    
+  Dudekula Rajesh Final Year Project – SVR Engineering College
+
+
+  **📄 License This project is for educational and non-commercial use only.**
