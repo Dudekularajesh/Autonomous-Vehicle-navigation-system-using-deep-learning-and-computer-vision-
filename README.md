@@ -1,4 +1,4 @@
-**Autonomous-Vehicle-navigation-system-using-deep-learning-and-computer-vision-**
+Autonomous-Vehicle-navigation-system-using-deep-learning-and-computer-vision-
 
 🚗 Real-Time Vehicle Detection and Speed Estimation using YOLOv8
 
